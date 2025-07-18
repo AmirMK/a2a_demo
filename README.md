@@ -46,6 +46,17 @@ The A2A Basic sample consists of:
 
 ### Prerequisites
 
+0. **Install required packages and set up environment**:
+   - Install the required dependencies:
+     ```bash
+     pip install google-adk[adk,agent_engine,a2a]
+     ```
+   - Update the `.env` files:
+     - In the root directory
+     - In `contributing/samples/a2a_basic/remote_a2a/check_prime_agent/`
+
+     Insert your Google Cloud `project_id` in both files.
+
 1. **Start the Remote Prime Agent server**:
    ```bash
    # Start the remote a2a server that serves the check prime agent on port 8001
