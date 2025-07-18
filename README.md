@@ -53,20 +53,20 @@ The A2A Basic sample consists of:
      ```
    - Update the `.env` files:
      - In the root directory
-     - In `contributing/samples/a2a_basic/remote_a2a/check_prime_agent/`
+     - In `./a2a_basic/remote_a2a/check_prime_agent/`
 
      Insert your Google Cloud `project_id` in both files.
 
 1. **Start the Remote Prime Agent server**:
    ```bash
    # Start the remote a2a server that serves the check prime agent on port 8001
-   adk api_server --a2a --port 8001 contributing/samples/a2a_basic/remote_a2a
+   adk api_server --a2a --port 8001 ./a2a-demo/remote_a2a
    ```
 
 2. **Run the Main Agent**:
    ```bash
    # In a separate terminal, run the adk web server
-   adk web contributing/samples/
+   adk web
    ```
 
 ### Example Interactions
